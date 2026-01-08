@@ -84,7 +84,7 @@ def display_home():
     
     st.markdown('<h2 style="text-align: center; color: #FFFFFF;">ACESSE SEU TREINO</h2>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; color: #EF4444; font-size: 20px; font-style: italic;">193 treinos</p>', unsafe_allow_html=True)
-    st.markdown('<p style="text-align: center; color: #EF4444; font-size: 16px; font-style: italic;">Romualdo.run</p>', unsafe_allow_html=True)
+        st.markdown('<p style="text-align: center; color: #EF4444; font-size: 16px; font-style: italic;">Romualdo.run</p>', unsafe_allow_html=True)
     
     st.divider()
     
