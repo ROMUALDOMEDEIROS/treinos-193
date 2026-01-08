@@ -269,7 +269,7 @@ elif st.session_state.role == 'coach':
     display_coach_panel()
 elif st.session_state.role == 'athlete_view':
     athlete = st.session_state.athletes.get(st.session_state.viewing_athlete)
-        st.session_state.athlete_email = st.session_state.viewing_athlete
+            st.session_state.athlete_email = st.session_state.viewing_athlete
     if athlete:
         st.title(f"Visualizando Treinos - {athlete['name']}")
         if st.button("← Voltar ao Painel"):
