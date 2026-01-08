@@ -43,9 +43,8 @@ VAM_ZONE_CONFIG = {
     'Z4': {'min': 1.0, 'max': 1.2, 'label': 'Z4 - AnAerobic', 'color': '#ff6633'},
 }
 
-48
-(vam_value):
-    """Calculate training zones based on VAM"""
+def calculate_vam_zones(vam_value)
+:training zones based on VAM"""
     zones = {}
     for zone_name, config in VAM_ZONE_CONFIG.items():
         min_speed = vam_value * config['min']
