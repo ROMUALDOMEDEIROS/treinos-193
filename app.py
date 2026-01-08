@@ -37,13 +37,14 @@ COACH_PASSWORD = "Romo$2228"
 
 # VAM Zones Configuration
 VAM_ZONE_CONFIG = {
-    'Z1': {'min': 0, 'max': 0.65, 'label': 'Z1 - Base', 'color': '#0099ff'},
+    'Z1': {'min': 0.01, 'max': 0.65, 'label': 'Z1 - Base', 'color': '#0099ff'},
     'Z2': {'min': 0.65, 'max': 0.80, 'label': 'Z2 - Produtivo', 'color': '#66cc33'},
     'Z3': {'min': 0.80, 'max': 1.0, 'label': 'Z3 - Lactato', 'color': '#ffcc00'},
     'Z4': {'min': 1.0, 'max': 1.2, 'label': 'Z4 - AnAerobic', 'color': '#ff6633'},
 }
 
-def calculate_vam_zones(vam_value):
+48
+(vam_value):
     """Calculate training zones based on VAM"""
     zones = {}
     for zone_name, config in VAM_ZONE_CONFIG.items():
