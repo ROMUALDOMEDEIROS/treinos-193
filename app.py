@@ -80,6 +80,7 @@ def display_home():
         else:
             st.markdown('<h1 style="color: #EF4444; font-size: 48px;">193</h1><p style="color: #FFFFFF;">TREINOS</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
+                st.markdown('### **193**', unsafe_allow_html=True)
     
     st.markdown('<h2 style="text-align: center; color: #FFFFFF;">ACESSE SEU TREINO</h2>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; color: #EF4444; font-size: 20px; font-style: italic;">193 treinos</p>', unsafe_allow_html=True)
